@@ -92,7 +92,7 @@ export default function Home() {
           Nueva Tarea
         </Button>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6 container">
         <Card>
           <CardContent className="p-4 flex items-center gap-4">
             <div className="bg-blue-100 dark:bg-blue-900 p-3 rounded-full">
@@ -140,7 +140,7 @@ export default function Home() {
         {/* Lista de Tareas o Mensaje de No Tareas */}
         <div
           className={`flex flex-wrap items-center gap-4 container ${
-            tasks.length >= 2 ? "justify-evenly" : "justify-start"
+            tasks.length >= 2 ? "justify-center" : "justify-start"
           }`}
         >
           {filteredTasks.length > 0 ? (

@@ -13,7 +13,7 @@ Una aplicación moderna de gestión de tareas construida con Next.js, TypeScript
 
 ## Capturas de pantalla
 
-![Todo List App](/public/todo-list.png)![Todo List App](/public/form.png)
+![Todo List App](/public/desktop.png)![Todo List App](/public/form.png)
 
 ## Instalación
 
@@ -21,7 +21,7 @@ Sigue estos pasos para configurar el proyecto localmente:
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/yourusername/todo-list.git
+git clone https://github.com/CristianMorenoPerez/todo-list-app.git
 
 # Navegar al directorio del proyecto
 cd todo-list

@@ -108,7 +108,7 @@ export default function TaskCard({
   return (
     <div
       className={cn(
-        "transition-all duration-500 ease-in-out overflow-hidden max-w-md w-full",
+        "transition-all duration-500 ease-in-out overflow-hidden max-w-sm w-full",
         isDeleting && "opacity-0 translate-x-full h-0 my-0"
       )}
     >
