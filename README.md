@@ -24,10 +24,10 @@ Sigue estos pasos para configurar el proyecto localmente:
 git clone https://github.com/CristianMorenoPerez/todo-list-app.git
 
 # Navegar al directorio del proyecto
-cd todo-list
+cd todo-list-app
 
 # Instalar dependencias
-npm install
+npm install -f
 ```
 
 ## Cofiguracion del entorno
@@ -51,7 +51,7 @@ npm run test
 npm run build
 
 # Iniciar servidor de producción
-npm start
+npm run start
 ```
 
 ## Características
